@@ -1,0 +1,18 @@
+{
+    "autoload": {
+        "psr-4": {
+            "CAR\\":"app"
+        }
+    },
+    "require": {
+        "dcblogdev/pdo-wrapper": "^2.0",
+        "rakit/validation": "^1.4",
+        "wixel/gump": "^1.11",
+        "funkjedi/composer-include-files": "^1.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "funkjedi/composer-include-files": true
+        }
+    }
+}
